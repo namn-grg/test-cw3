@@ -1,8 +1,8 @@
 {
-	"name": "create-web3-dapp-grg",
+	"name": "test-cw3-grg",
 	"version": "1.0.0",
 	"keywords": [
-		"create-web3-dapp",
+		"test-cw3-grg",
 		"create web3 dapp",
 		"boilerplate",
 		"nextjs",
@@ -26,10 +26,10 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint . --ext .ts && yarn prettier --write .",
-		"start": "npx tsc && npm link && npx create-web3-dapp"
+		"start": "npx tsc && npm link && npx test-cw3-grg"
 	},
 	"bin": {
-		"create-web3-dapp": "./dist/index.js"
+		"test-cw3-grg": "./dist/index.js"
 	},
 	"devDependencies": {
 		"@types/node": "^18.6.4",
